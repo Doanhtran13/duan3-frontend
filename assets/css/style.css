@@ -13,6 +13,14 @@ body {
 }
 
 /* _______common_________ */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  /* lenh nay se giup ke thua nhung the ben tren da code chung */
+}
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -523,4 +531,137 @@ a {
 }
 .blog-item__more:hover {
   color: #2e80ce;
+}
+/* ___________appointment_________ */
+.appoinment {
+  margin-top: 85px;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  background-color: #f6fbff;
+  text-align: center;
+}
+.appointment__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background-color: #2e80ce;
+  margin: 18px auto 0;
+}
+.appointment__desc {
+  margin-top: 18px;
+  max-width: 617px;
+  margin: 18px auto 0;
+}
+.apponintment__btn {
+  margin-top: 18px;
+}
+/* __________FOOTER____________ */
+.footer {
+  margin-top: 170px;
+  padding-top: 100px;
+  background-color: #10375c;
+  font-family: "Open Sans", sans-serif;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+}
+.footer__desc {
+  margin-top: 21px;
+  color: #a9b3bb;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.footer__heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.footer__list {
+  margin: 20px 0 28px;
+}
+.footer__link {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  white-space: nowrap;
+  /* khong xuong hang */
+}
+footer__link:hover {
+  text-decoration: underline;
+}
+.footer__item {
+  margin-bottom: 10px;
+}
+.footer__social {
+  display: flex;
+  margin: 20px 0 28px;
+  column-gap: 10px;
+}
+.footer__social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #2e80ce;
+  transition: 0.25s;
+}
+.footer__social-btn:hover {
+  background-color: #2e80ce;
+  color: #fff;
+}
+.footer-form {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 10px;
+}
+.footer-form__input {
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background: transparent;
+  outline: none;
+  color: #fff;
+}
+.footer-form__input::placeholder {
+  color: #9ca8b1;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+}
+.footer-form__submit {
+  width: 108px;
+  height: 46px;
+  border-radius: 4px;
+  background: #2e80ce;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.85;
+  border: none;
+}
+.footer-form__submit:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.footer__copyright {
+  border-top: 1px solid #406181;
+}
+.footer__copyright-text {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  text-align: center;
+  padding: 28px 0 42px;
 }
