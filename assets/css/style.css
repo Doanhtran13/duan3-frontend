@@ -593,7 +593,7 @@ a {
   white-space: nowrap;
   /* khong xuong hang */
 }
-footer__link:hover {
+.footer__link:hover {
   text-decoration: underline;
 }
 .footer__item {
